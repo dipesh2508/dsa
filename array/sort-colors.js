@@ -1,6 +1,7 @@
-/**
- Do not return anything, modify nums in-place instead.
- */
+// frequency array method
+// Time: O(n)
+// Space: O(1)
+
  function sortColors(nums) {
     let hash = new Array(3).fill(0);
     let n = nums.length;
